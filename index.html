@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamasoliyev Ozodbek - Talaba & Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="#home">Ozodbek M.</a>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Bosh sahifa</a></li>
+                    <li><a href="#about" class="nav-link">Men haqimda</a></li>
+                    <li><a href="#skills" class="nav-link">Ko'nikmalar</a></li>
+                    <li><a href="#projects" class="nav-link">Loyihalar</a></li>
+                    <li><a href="#contact" class="nav-link">Aloqa</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Salom, men</span>
+                    <span class="name">Mamasoliyev Ozodbek</span>
+                    <span class="profession">Talaba & Web Developer</span>
+                </h1>
+                <p class="hero-subtitle">Andijon Davlat Universiteti talabasi. Zamonaviy web ilovalar yaratishga qiziqaman va dasturlash sohasida o'z bilimlarimni rivojlantirmoqdam.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Loyihalarim</a>
+                    <a href="#contact" class="btn btn-secondary">Bog'lanish</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Men haqimda</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="rasm.jpg" 
+                             onerror="this.onerror=null; this.src='rasm.jpeg'; this.onerror=function(){this.onerror=null; this.src='rasm.png'; this.onerror=function(){this.onerror=null; this.src='rasm.webp'; this.onerror=function(){this.src='https://via.placeholder.com/400x400/1E293B/38BDF8?text=Ozodbek';};};};" 
+                             alt="Mamasoliyev Ozodbek">
+                        <div class="image-badge">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Universitet Talabasi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="about-header">
+                        <h3>Salom! Men Mamasoliyev Ozodbek</h3>
+                        <p class="about-intro">Andijon Davlat Universiteti Talabasi</p>
+                    </div>
+                    <div class="about-description">
+                        <p>Men <strong>Andijon Davlat Universiteti</strong>ning <strong>Matematika Fizika va IT fakulteti</strong>, <strong>Amaliy matematika yo'nalishi</strong>ning 3-bosqich talabasiman. Universitetda o'qish davomida dasturlash va web texnologiyalariga chuqur qiziqish bildirib, o'z bilimlarimni rivojlantirmoqdam.</p>
+                        <p>Men <strong>Frontend</strong> va <strong>Backend</strong> texnologiyalarida ishlashni o'rganyapman. HTML, CSS, JavaScript asoslarini yaxshi bilaman va React, Vue.js kabi zamonaviy JavaScript frameworklarini o'zlashtirmoqdam. Backend tomonda Node.js va Python bilan ishlashni o'rganyapman. Har bir loyihada kod sifati, performans va foydalanuvchi tajribasiga alohida e'tibor beraman.</p>
+                        <p>Matematika va dasturlashni birlashtirib, amaliy muammolarni yechishga intilaman. Yangi texnologiyalarni o'rganish va loyihalar yaratish orqali o'z ko'nikmalarimni yanada rivojlantirmoqdam.</p>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Kod sifati va best practices</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Responsive va modern dizayn</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Performance optimization</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Jamoaviy ishlash qobiliyati</span>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <span class="stat-number">25+</span>
+                            <span class="stat-label">Yakunlangan loyihalar</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Yillik tajriba</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Mamnun mijozlar</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">GitHub repository</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Ko'nikmalar</h2>
+            <p class="section-subtitle">Men quyidagi texnologiyalar va vositalar bilan ishlayman</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%"></div>
+                    </div>
+                    <span class="skill-percent">95%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                    <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 88%"></div>
+                    </div>
+                    <span class="skill-percent">88%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                    <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3>Node.js</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                    <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                    <span class="skill-percent">75%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Loyihalar</h2>
+            <p class="section-subtitle">Mening so'nggi va eng yaxshi ishlarim</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/1E293B/38BDF8?text=E-Commerce+Platform" alt="E-Commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Ko'rish">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>React va Node.js yordamida yaratilgan to'liq funksional onlayn do'kon. Real vaqtda to'lov, savat boshqaruvi va admin panel bilan.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/1E293B/38BDF8?text=Task+Management+App" alt="Task Management App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Ko'rish">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Vue.js va Firebase bilan qurilgan vazifalar boshqaruvi ilovasi. Real vaqtda yangilanish, jamoa bilan ishlash va drag-and-drop funksiyalari.</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/1E293B/38BDF8?text=Weather+Dashboard" alt="Weather Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Ko'rish">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>JavaScript va OpenWeatherMap API yordamida yaratilgan ob-havo dashboard. Interaktiv grafiklar va 7 kunlik prognoz bilan.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">API</span>
+                            <span class="tag">Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Aloqa</h2>
+            <p class="section-subtitle">Loyiha yoki hamkorlik haqida gaplashamizmi? Xabar yuboring!</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:ozodbek@example.com">ozodbek@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telegram</h3>
+                            <a href="https://t.me/ozodbek_dev" target="_blank">@ozodbek_dev</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/ozodbek" target="_blank">github.com/ozodbek</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Ismingiz" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email manzilingiz" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Xabaringiz" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Xabar yuborish</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Mamasoliyev Ozodbek. Barcha huquqlar himoyalangan.</p>
+            <div class="social-links">
+                <a href="https://github.com/ozodbek" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://t.me/ozodbek_dev" target="_blank" aria-label="Telegram">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="mailto:ozodbek@example.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
